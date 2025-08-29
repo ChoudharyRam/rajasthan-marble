@@ -3,75 +3,140 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rajasthan Marbles - Dimapur</title>
+  <title>Rajasthan Makrana Marble</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f8f8f8;
+      background: #f4f4f4;
       color: #333;
-      text-align: center;
     }
     header {
       background: #2c3e50;
       color: white;
       padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
     }
     nav a {
       color: white;
-      margin: 0 15px;
       text-decoration: none;
-      font-weight: bold;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    nav a:hover {
+      text-decoration: underline;
     }
     section {
-      padding: 50px 20px;
+      padding: 40px 20px;
+      text-align: center;
     }
-    .btn {
-      background: #27ae60;
-      color: white;
-      padding: 12px 20px;
-      border-radius: 5px;
-      text-decoration: none;
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery div {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      padding: 10px;
+      width: 300px;
+      text-align: center;
+    }
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .gallery p {
+      margin-top: 8px;
+      font-weight: bold;
     }
     footer {
       background: #2c3e50;
       color: white;
       padding: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    footer a {
+      color: #1abc9c;
+      text-decoration: none;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Rajasthan Marbles</h1>
-    <p>Best Quality Marble in Dimapur, Nagaland</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <h1>Rajasthan Makrana Marble</h1>
+    <p>Premium Quality Marble & Installation Services in Dimapur, Nagaland</p>
   </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
   <section id="about">
     <h2>About Us</h2>
-    <p>We provide premium marble slabs and installation services in Dimapur, Nagaland. Trusted for quality and durability.</p>
+    <p>
+      Welcome to <strong>Rajasthan Makrana Marble</strong>, your trusted destination for premium quality marble slabs 
+      and professional installation services. Based in Dimapur, Nagaland, we specialize in bringing timeless beauty 
+      and durability to your homes, offices, and projects.
+    </p>
   </section>
 
   <section id="gallery">
-    <h2>Gallery</h2>
-    <p>Our recent work and marble collection will be displayed here.</p>
-    <img src="https://via.placeholder.com/300" alt="Marble Sample">
-    <img src="https://via.placeholder.com/300" alt="Marble Sample">
+    <h2>Our Marble Collection</h2>
+    <div class="gallery">
+      <div>
+        <img src="images/marble1.jpg" alt="White Marble">
+        <p>White Marble</p>
+      </div>
+      <div>
+        <img src="images/marble2.jpg" alt="Black Marble">
+        <p>Black Marble</p>
+      </div>
+      <div>
+        <img src="images/marble3.jpg" alt="Green Marble">
+        <p>Green Marble</p>
+      </div>
+      <div>
+        <img src="images/marble4.jpg" alt="Brown Marble">
+        <p>Brown Marble</p>
+      </div>
+      <div>
+        <img src="images/marble5.jpg" alt="Makrana Marble">
+        <p>Makrana Marble</p>
+      </div>
+    </div>
   </section>
 
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>📞 Call: +91 79762 78058</p>
-    <p>💬 WhatsApp: <a class="btn" href="https://wa.me/+91 9799035064" target="_blank">Chat on WhatsApp</a></p>
+    <p>📞 Phone: <a href="tel:+917976278058">+91 79762 78058</a></p>
+    <p>💬 WhatsApp: <a href="https://wa.me/919799035064" target="_blank">9799035064</a></p>
+    <p>📍 Location: Dimapur, Nagaland</p>
   </section>
 
   <footer>
-    <p>© 2025 Rajasthan Marbles | Designed by Ram</p>
+    <p>© 2025 Rajasthan Makrana Marble. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
